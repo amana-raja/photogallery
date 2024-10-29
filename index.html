@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="addtabindex()">
+    
+    <div id="main">
+		Hover over an image to display here.
+	</div>
+
+	<img class = "preview"  src = "photos/1.jpg" alt = "Ready" onmouseover="update(this)" onmouseout="undo()"  onblur="myblur()">
+	
+	<img class = "preview"  src = "photos/2.jpg" alt = "Happy" onmouseover="update(this)"  onmouseout="undo()" >
+	
+	<img class = "preview" src = "photos/3.jpg" alt = "Bath Time" onmouseover="update(this)" onmouseout="undo()">
+
+    <img class = "preview" src = "photos/4.jpg" alt = "Swing" onmouseover="update(this)" onmouseout="undo()">
+
+    <img class = "preview" src = "photos/5.jpg" alt = "Exploring" onmouseover="update(this)" onmouseout="undo()">
+
+    <img class = "preview" src = "photos/6.jpg" alt = "Dulhan" onmouseover="update(this)" onmouseout="undo()">
+
+    
+
+    <script src="script.js" ></script>
+</body>
+</html>
